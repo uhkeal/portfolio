@@ -12,6 +12,7 @@ work/
   soundshelf.html     SoundShelf project page
 css/style.css         All the styles, in the order they appear on the page
 js/main.js            Scroll fade-in, image lightbox, and the nav race
+js/koi.js             The koi pond background (fish, cursor trail, click ripples)
 assets/
   favicon.svg
   img/<project>/      Screens and diagrams for each project
@@ -40,6 +41,12 @@ assets/
 The two pixel cars are drawn by `setupRace()` in `js/main.js`. Hover the nav for a speed boost (DRS); click Resume for a pit stop. The numbers at the top of that section (`LAP_MS`, `DRS_SPEED`, …) control the speeds. To remove the race, delete the `setupRace();` line at the bottom of the file and the `<span class="lap-chip">` in each page's nav.
 
 People who have "reduce motion" turned on see the cars parked and no fade-in animations.
+
+## The koi pond
+
+`js/koi.js` draws a koi on a canvas fixed behind every page. Moving the mouse leaves a trail in the water, clicking drops a ripple the fish swims over to, and clicking right beside the fish makes it dart away. The `KOI` list at the top of the file controls its size, speed, opacity, colors and how many fish there are; the patches use `--accent`. To remove it, delete the `<script src="js/koi.js">` line at the bottom of each page.
+
+The pond is switched off for people who have "reduce motion" turned on.
 
 ## Hosting on GitHub Pages
 

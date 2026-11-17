@@ -100,6 +100,17 @@ figure {
   top: 16px;
 }
 
+/* The koi pond: a canvas fixed behind everything, drawn by js/koi.js.
+   Clicks pass straight through it to the page. */
+.pond {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
 /* 3. Shared pieces --------------------------------------------------------- */
 .glass {
   background: rgba(255, 255, 255, 0.05);
