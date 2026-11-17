@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tariq Ebo — UX and product design</title>
+  <meta name="description" content="Tariq Ebo is a UX-focused designer and Informatics student at the University of Washington. Case studies: Waypoint, MyFinances, SoundShelf.">
+  <meta property="og:title" content="Tariq Ebo — UX and product design">
+  <meta property="og:description" content="A UX-focused designer who makes digital products easier to understand and use.">
+  <meta property="og:image" content="assets/img/waypoint/hero.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to work</a>
+
+  <!-- NAVIGATION (the cars are added by js/main.js) -->
+  <div class="nav-shell">
+    <nav class="nav glass" aria-label="Main">
+      <a class="nav-brand" href="#top">Tariq Ebo</a>
+      <div class="nav-links">
+        <span class="lap-chip" aria-hidden="true"></span>
+        <a class="text-link" href="#work">Work</a>
+        <a class="text-link" href="#about">About</a>
+        <a class="nav-cta" data-pit href="https://drive.google.com/file/d/1EJT7WIdHumrBzgWnmrdFnhgLevJQh3FU/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </nav>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <header class="hero">
+      <div class="glow-layer" aria-hidden="true">
+        <div class="orb" style="top: -160px; right: -120px; width: 620px; height: 620px; background: var(--accent); opacity: 0.32"></div>
+        <div class="orb" style="top: 420px; left: -220px; width: 560px; height: 560px; background: var(--blue); opacity: 0.22; animation-delay: -9s"></div>
+      </div>
+      <div class="wrap">
+        <p class="status glass"><span class="status-dot"></span>Open to Summer 2027 internships</p>
+        <h1>Designing interfaces that are calm, clear, and <span class="accent">kind</span> to the people using them.</h1>
+        <p class="hero-intro">I’m Tariq Ebo, a junior studying Informatics at the University of Washington, interested in UX and product design. I’m looking for Summer 2027 internships where I can work on thoughtful, useful digital products.</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#work">View my work</a>
+          <a class="btn btn-ghost" data-pit href="https://drive.google.com/file/d/1EJT7WIdHumrBzgWnmrdFnhgLevJQh3FU/view?usp=sharing" target="_blank" rel="noopener">View resume</a>
+        </div>
+        <div class="hero-meta">
+          <span>UX / Product design</span>
+          <span>Informatics, University of Washington</span>
+          <span>Seattle, WA</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- SELECTED WORK
+         To add a project: copy one <a class="card">…</a> block, change the link,
+         image, and text. The first card (card-featured) is the wide one. -->
+    <section class="section" id="work">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Selected work</h2>
+          <p>Projects I’ve designed and built.</p>
+        </div>
+
+        <div class="work-grid">
+          <a class="card card-featured reveal" href="work/waypoint.html">
+            <img class="card-thumb" src="assets/img/waypoint/hero.png" width="2400" height="1350" alt="Waypoint mobile navigation concept showing three phone screens: campus search, step-free route choice and turn-by-turn indoor directions.">
+            <div class="card-cap glass-strong">
+              <div>
+                <p class="kicker">Featured case study / Concept project</p>
+                <h3 class="card-title">Waypoint</h3>
+                <p class="card-text">Indoor campus navigation, from the entrance to the right room.</p>
+                <p class="card-meta">UX/UI Designer · Independent concept</p>
+              </div>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="card reveal" href="work/myfinances.html">
+            <img class="card-thumb" src="assets/img/myfinances/cover.png" width="1007" height="1461" loading="lazy" alt="MyFinances cover: a phone showing the student finance dashboard.">
+            <div class="card-cap glass-strong">
+              <div>
+                <h3 class="card-title">MyFinances</h3>
+                <p class="card-text">Making student finances easier to see—and understand.</p>
+                <p class="card-meta">Main UX Designer &amp; Editor · Team of 4</p>
+              </div>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="card reveal" href="work/soundshelf.html">
+            <img class="card-thumb" src="assets/img/soundshelf/profile.png" width="1920" height="1860" loading="lazy" alt="SoundShelf profile page with a listener’s avatar, activity counts, featured playlist and recently played tracks.">
+            <div class="card-cap glass-strong">
+              <div>
+                <h3 class="card-title">SoundShelf</h3>
+                <p class="card-text">A collaborative music discovery application.</p>
+                <p class="card-meta">Front-end/UI contributor · INFO 340</p>
+              </div>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <!-- Transfermarkt: no case study page yet. When it's ready, change this
+               <div> to <a class="card reveal" href="work/transfermarkt.html">, swap the
+               glow + note for an <img class="card-thumb">, and add the arrow span. -->
+          <div class="card card-soon reveal">
+            <div class="card-glow" aria-hidden="true"></div>
+            <p class="card-note kicker">Case study in progress</p>
+            <div class="card-cap glass-strong">
+              <div>
+                <h3 class="card-title">Transfermarkt redesign</h3>
+                <p class="card-text">An unofficial concept redesign of the football database.</p>
+                <p class="card-meta">UX/UI Designer · Coming soon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AFTER HOURS (hidden until you have clips)
+         To turn this on: delete the comment markers around the section and put
+         your thumbnails in assets/img/play/.
+
+    <section class="section" id="play">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>After hours</h2>
+          <p>AMVs, movie edits, and frame-by-frame animation.</p>
+        </div>
+        <div class="tiles">
+          <figure class="shot"><img src="assets/img/play/clip-1.jpg" alt="Describe the clip"></figure>
+          <figure class="shot"><img src="assets/img/play/clip-2.jpg" alt="Describe the clip"></figure>
+          <figure class="shot"><img src="assets/img/play/clip-3.jpg" alt="Describe the clip"></figure>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="wrap about">
+        <div class="about-label reveal">
+          <h2>About me</h2>
+        </div>
+        <div class="about-body reveal">
+          <p class="about-lead">I’m an Informatics student at the University of Washington, focused on UX and product design. I like figuring out why something feels confusing and then finding a simpler way to communicate it.</p>
+          <p class="about-more">My work has included a student finance app, a music discovery site, and an indoor navigation concept. I enjoy working in Figma and thinking through the structure and visual design of an experience, but I’m also interested in understanding how the things I design are actually built.</p>
+          <p class="about-more">Outside of school, I’ve spent years making graphics, editing videos, and experimenting with digital design. I also care a lot about music, gaming, and fashion, which has shaped how I think about visual style and presentation.</p>
+
+          <div class="facts">
+            <div class="fact glass">
+              <div class="fact-label">UX / Product Design</div>
+              <div>UX Design, Product Design, UI Design, Interaction Design, Visual Design, Prototyping, User Flows, User Testing, UX Research, Accessibility</div>
+            </div>
+            <div class="fact glass">
+              <div class="fact-label">Tools</div>
+              <div>Figma, Framer, Jira, Adobe Photoshop, After Effects</div>
+            </div>
+            <div class="fact glass">
+              <div class="fact-label">Technical foundation</div>
+              <div>HTML, CSS, React, Firebase</div>
+            </div>
+          </div>
+
+          <div class="about-resume">
+            <span>My resume has the full list of my education, experience, and other work.</span>
+            <a class="btn btn-ghost" data-pit href="https://drive.google.com/file/d/1EJT7WIdHumrBzgWnmrdFnhgLevJQh3FU/view?usp=sharing" target="_blank" rel="noopener">View resume (PDF) ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONTACT + FOOTER -->
+  <footer class="contact" id="contact">
+    <div class="glow-layer" aria-hidden="true">
+      <div class="orb" style="bottom: -260px; left: 30%; width: 640px; height: 640px; background: var(--accent); opacity: 0.22; animation-delay: -4s"></div>
+    </div>
+    <div class="wrap">
+      <p class="contact-lead reveal">I’m looking for UX and product design opportunities for Summer 2027.</p>
+      <a class="contact-big reveal" href="mailto:byaaqil@gmail.com">Let’s work together <span aria-hidden="true">→</span></a>
+      <div class="footer-bar glass">
+        <span>© 2026 Tariq Ebo</span>
+        <div class="footer-links">
+          <a class="text-link" href="mailto:byaaqil@gmail.com">byaaqil@gmail.com</a>
+          <a class="text-link" href="https://www.linkedin.com/in/tariqebo" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="text-link" href="https://github.com/uhkeal" target="_blank" rel="noopener">GitHub</a>
+          <a class="text-link" href="#top">Back to top</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

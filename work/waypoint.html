@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Waypoint — Tariq Ebo</title>
+  <meta name="description" content="Waypoint is a concept for indoor campus navigation with step-free routes built in. A UX/UI case study by Tariq Ebo.">
+  <meta property="og:title" content="Waypoint — indoor campus navigation concept">
+  <meta property="og:image" content="../assets/img/waypoint/hero.png">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <div class="nav-shell">
+    <nav class="nav glass" aria-label="Main">
+      <a class="nav-brand" href="../index.html">Tariq Ebo</a>
+      <div class="nav-links">
+        <span class="lap-chip" aria-hidden="true"></span>
+        <a class="text-link" href="../index.html#work">← All work</a>
+        <a class="nav-cta" data-pit href="https://drive.google.com/file/d/1EJT7WIdHumrBzgWnmrdFnhgLevJQh3FU/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </nav>
+  </div>
+
+  <main id="content">
+    <!-- TITLE -->
+    <header class="case-hero">
+      <div class="glow-layer" aria-hidden="true">
+        <div class="orb" style="top: -180px; right: -140px; width: 600px; height: 600px; background: var(--blue); opacity: 0.28"></div>
+      </div>
+      <div class="wrap">
+        <p class="kicker">Concept case study / UX/UI design</p>
+        <h1>Waypoint</h1>
+        <p class="case-lead">Helping students and visitors find the right floor, room and route inside campus buildings, with step-free options built in.</p>
+
+        <dl class="case-meta glass">
+          <div><dt>Category</dt><dd>UX/UI Design · Mobile Product Design</dd></div>
+          <div><dt>Role</dt><dd>Solo Product Designer</dd></div>
+          <div><dt>Tools</dt><dd>Figma · Framer · Claude (AI assistant)</dd></div>
+          <div><dt>Scope</dt><dd>Concept project · one fictional building · 390×844 phone</dd></div>
+        </dl>
+
+        <div class="case-intro">
+          <p>An independent concept for indoor campus navigation, designed end to end in Figma. Hartwell Hall and Alder Campus are fictional, and the design has not been tested with users yet.</p>
+          <a class="btn btn-solid" href="https://www.figma.com/proto/HJjyxllXbSOyPlOVEP5qT2/Waypoint?page-id=3%3A8&node-id=30-110&starting-point-node-id=30%3A110&scaling=scale-down&content-scaling=fixed" target="_blank" rel="noopener">Explore the prototype ↗</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <figure class="shot shot-hero reveal">
+        <img data-zoom src="../assets/img/waypoint/hero.png" width="2400" height="1350" alt="Waypoint hero: three phone screens showing a home search, a step-free route choice and a navigation instruction inside a fictional campus building.">
+      </figure>
+
+      <!-- 02 THE PROBLEM -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">02 / The problem</p></div>
+        <div class="block-body">
+          <h2>Outdoor maps end at the <span class="accent">front door</span></h2>
+          <p>Students and visitors can reach the right building and still struggle to find the right room. Inside, they have to read an unfamiliar layout, work out the right floor and choose a route that works for them.</p>
+          <div class="tiles">
+            <div class="tile"><p class="kicker">01</p><h3>Unfamiliar layouts</h3><p>A first visit means working out corridors, wings and entrances with no map of the inside.</p></div>
+            <div class="tile"><p class="kicker">02</p><h3>Finding rooms</h3><p>Room names vary (“HH 214”, “Hartwell 214”, “214”) and say little about where the room actually is.</p></div>
+            <div class="tile"><p class="kicker">03</p><h3>Accessibility</h3><p>Step-free options can be hard to find, and directions often assume that stairs are fine.</p></div>
+          </div>
+          <div class="note">
+            <p class="kicker">The opportunity</p>
+            <p>Pick up where outdoor maps stop. Guide people from the entrance to the right floor and door, and offer a step-free route as an equal choice.</p>
+            <p class="small">This framing is where the concept starts. It has not been researched with users yet.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03 USERS & JOURNEY -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">03 / Users &amp; journey</p></div>
+        <div class="block-body">
+          <h2>Designing around different ways of navigating</h2>
+          <p>I wrote three personas to keep different needs in view, then mapped the path from opening the app to reaching the door.</p>
+          <p class="small">The personas are design tools I wrote for this concept. They are not research participants.</p>
+          <div class="tiles">
+            <div class="tile">
+              <p class="kicker">Student</p>
+              <h3>Maya, 19</h3>
+              <p>Has four minutes to reach Room 214 in Hartwell Hall, a building she has never entered. She knows the building, but not the entrance, the layout or whether to take the stairs.</p>
+              <p><span class="label">Needs</span>The fastest route with the floor spelled out, and directions she can follow at a glance while walking.</p>
+            </div>
+            <div class="tile">
+              <p class="kicker">Campus visitor</p>
+              <h3>Daniel, 52</h3>
+              <p>Arrives early for an information session in Hartwell Hall. He is not sure which entrance to use or how the floors are arranged.</p>
+              <p><span class="label">Needs</span>Plain-language directions, and a clear sense of where he is relative to the destination.</p>
+            </div>
+            <div class="tile">
+              <p class="kicker">Step-free route user</p>
+              <h3>Sam, 24</h3>
+              <p>Needs to reach Room 214. Before leaving the lobby, Sam wants to know which elevator to take and that the route avoids stairs.</p>
+              <p><span class="label">Needs</span>A step-free route offered up front, with elevators and floor changes clearly shown.</p>
+            </div>
+          </div>
+
+          <h3>From the front door to the right room</h3>
+          <div class="rows">
+            <div class="rows-item">
+              <div class="rows-title"><p class="kicker">01</p><h4>Search</h4></div>
+              <div class="rows-body">
+                <p><span class="label">User goal</span>Find my room or building.</p>
+                <p><span class="label">Likely friction</span>Room names vary: “HH 214”, “Hartwell 214”, “214”.</p>
+                <p><span class="label">Design opportunity</span>Forgiving search that accepts all three, with recent searches as shortcuts.</p>
+              </div>
+            </div>
+            <div class="rows-item">
+              <div class="rows-title"><p class="kicker">02</p><h4>View floor plan</h4></div>
+              <div class="rows-body">
+                <p><span class="label">User goal</span>Understand the building.</p>
+                <p><span class="label">Likely friction</span>Which floor? Where are the entrance and the elevator?</p>
+                <p><span class="label">Design opportunity</span>Floor selector, entrances and facilities appear before any routing starts.</p>
+              </div>
+            </div>
+            <div class="rows-item">
+              <div class="rows-title"><p class="kicker">03</p><h4>Choose route</h4><p style="margin-top: 10px"><span class="tag">Highest risk</span></p></div>
+              <div class="rows-body">
+                <p><span class="label">User goal</span>Pick a route that works for me.</p>
+                <p><span class="label">Likely friction</span>Step-free options hide in settings; stairs versus elevator trade-offs are unclear.</p>
+                <p><span class="label">Design opportunity</span>Standard and step-free routes sit on one sheet, with time, distance and the reason for each.</p>
+              </div>
+            </div>
+            <div class="rows-item">
+              <div class="rows-title"><p class="kicker">04</p><h4>Navigate</h4><p style="margin-top: 10px"><span class="tag">Highest risk</span></p></div>
+              <div class="rows-body">
+                <p><span class="label">User goal</span>Know my next move.</p>
+                <p><span class="label">Likely friction</span>Floor changes and wrong turns cause the most confusion; indoor positioning can drift.</p>
+                <p><span class="label">Design opportunity</span>One instruction at a time, an explicit floor-change step and a Recenter button to correct the location (drawn in the wireframes only).</p>
+              </div>
+            </div>
+            <div class="rows-item">
+              <div class="rows-title"><p class="kicker">05</p><h4>Arrive</h4></div>
+              <div class="rows-body">
+                <p><span class="label">User goal</span>Confirm I am at the right door.</p>
+                <p><span class="label">Likely friction</span>No clear arrival moment; unsure which side the door is on.</p>
+                <p><span class="label">Design opportunity</span>An arrival confirmation that names the room, floor and door side.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04 STRUCTURE & WIREFRAMES -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">04 / Structure &amp; wireframes</p></div>
+        <div class="block-body">
+          <h2>A simple structure, shaped before visual polish</h2>
+          <p>Three primary tabs keep the experience shallow. I mapped the key flows, then used grayscale wireframes to settle hierarchy and screen structure before introducing the visual system.</p>
+        </div>
+      </section>
+      <div class="full reveal">
+        <figure>
+          <div class="shot"><img data-zoom loading="lazy" src="../assets/img/waypoint/ia.png" width="1680" height="990" alt="Information architecture diagram. A bottom tab bar holds Discover, Saved and Settings. Discover branches into Search, Building details and Route and guidance; Saved and Settings are marked as outside the concept’s scope."></div>
+          <figcaption>Information architecture. The top row is the bottom tab bar, and each Discover branch is a path through the core task.</figcaption>
+        </figure>
+      </div>
+      <div class="full reveal">
+        <figure>
+          <div class="shot"><img data-zoom loading="lazy" src="../assets/img/waypoint/wireframes.png" width="2900" height="1360" alt="Six grayscale wireframes with annotations: Home / Discover, Search results, Building details, Indoor navigation, Route selection and Navigation in progress."></div>
+          <figcaption>The six wireframes and their annotations: Home / Discover, Search results, Building details, Indoor navigation, Route selection and Navigation in progress.</figcaption>
+        </figure>
+      </div>
+
+      <!-- 05 VISUAL DIRECTION & DESIGN SYSTEM -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">05 / Visual direction &amp; design system</p></div>
+        <div class="block-body">
+          <h2>A quiet map, one clear route</h2>
+          <p>The visual direction prioritizes quick glances while walking: restrained surfaces, clear type hierarchy, a distinct route color and reusable components for maps, directions and controls.</p>
+          <div class="tiles">
+            <div class="tile"><h3>Calm over clever</h3><p>Soft neutrals, generous space and no decorative gradients. The floor plan is a quiet backdrop; the route is the only loud thing on screen.</p></div>
+            <div class="tile"><h3>Color carries meaning</h3><p>Blue is the route, teal is step-free, and navy marks the destination and the instruction banner. Color is never decorative on the map.</p></div>
+            <div class="tile"><h3>Glanceable type</h3><p>Instructions are 22 px, body text is 16 px, and 11 px is kept for map and tab labels only, so the most important text is the easiest to read.</p></div>
+            <div class="tile"><h3>Accessible by default</h3><p>Text meets 4.5:1 contrast, control outlines reach 3:1 on white, touch targets are 44 px or larger, and step-free routing sits beside the standard route.</p></div>
+          </div>
+
+          <h3>Design system</h3>
+          <p>Colors, type and components live in Figma as variables, text styles and components, so all fifteen screens draw from one set.</p>
+        </div>
+      </section>
+      <div class="full reveal">
+        <figure>
+          <div class="shot"><img data-zoom loading="lazy" src="../assets/img/waypoint/color-system.png" width="2400" height="1113" alt="Waypoint color system: action blues, navy surfaces, text and line neutrals, step-free teal and status colors, a map palette, and a table of contrast checks."></div>
+          <figcaption>Color tokens with their contrast checks. Blue is for actions and the route, teal means step-free, and the map stays neutral.</figcaption>
+        </figure>
+      </div>
+      <div class="full reveal">
+        <figure>
+          <div class="shot"><img data-zoom loading="lazy" src="../assets/img/waypoint/components.png" width="2400" height="1350" alt="Waypoint components: buttons, search field states, chips and tags, the step-free toggle off and on, floor switches, list rows, route cards and five instruction banners."></div>
+          <figcaption>The components the prototype is built from: buttons, search field, chips and tags, the step-free toggle, floor switches, list rows, route cards and instruction banners.</figcaption>
+        </figure>
+      </div>
+
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">Map styling</p></div>
+        <div class="block-body">
+          <p>The floor plans use five quiet neutrals so nothing competes with the route. Hallways are white, rooms step through gray-blues, common space is a warm neutral, and blue and teal appear only on routes, connectors and the selected destination.</p>
+        </div>
+      </section>
+      <div class="full reveal">
+        <figure>
+          <div class="shot"><img data-zoom loading="lazy" src="../assets/img/waypoint/floor-plans.png" width="2400" height="1430" alt="Floor plans of the fictional Hartwell Hall, Floor 1 and Floor 2, in neutral room fills with Stairs A marked in blue and Elevator B marked in teal. A legend lists hallway, classroom, office, common space and service cores."></div>
+          <figcaption>Floor plans for the fictional Hartwell Hall. Stairs A and Elevator B sit in the same place on both floors, and Floor 2 shows the lobby void as a dashed outline.</figcaption>
+        </figure>
+      </div>
+
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">One documented refinement</p></div>
+        <div class="block-body">
+          <h3 style="margin-top: 0">Contrast pushed the palette darker</h3>
+          <p>While checking contrast, two values fell short of the 4.5:1 target, so I changed them. The teal and status colors also ended up darker for the same reason.</p>
+          <div class="note">
+            <div class="swatch-row">
+              <span>Navigation Blue, with a white label: 4.0:1 to 4.8:1</span>
+              <span class="swatch"><i style="background: #3978F6"></i>#3978F6</span>
+              <span aria-hidden="true">→</span>
+              <span class="swatch"><i style="background: #2467F5"></i>#2467F5</span>
+            </div>
+            <div class="swatch-row">
+              <span>Secondary text on the page background: 4.4:1 to 5.1:1</span>
+              <span class="swatch"><i style="background: #697586"></i>#697586</span>
+              <span aria-hidden="true">→</span>
+              <span class="swatch"><i style="background: #5F6B7C"></i>#5F6B7C</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 FINAL EXPERIENCE
+           Each "moment" shows the wide annotated mockup on big screens and the
+           plain phone screens on small ones. -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">06 / Final experience</p></div>
+        <div class="block-body">
+          <h2>The key screens, and the decisions behind them</h2>
+          <p>These key moments show how the interface supports orientation, route choice and step-free navigation.</p>
+        </div>
+      </section>
+
+      <article class="moment reveal">
+        <div class="moment-head"><span class="kicker">01</span><h3>Home</h3></div>
+        <figure class="shot shot-wide"><img data-zoom loading="lazy" src="../assets/img/waypoint/mock-home.png" width="2400" height="1350" alt="Home screen with a search field, quick filters, recent places and a step-free note, beside four numbered notes."></figure>
+        <div class="phones shot-phones">
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-01-home.png" width="780" height="1688" alt="Home screen: search field, quick filters, recent places and a step-free note."></figure>
+        </div>
+        <div class="why">
+          <div class="why-label"><p class="kicker">Why it is designed this way</p><p class="principle">Principle: Visual hierarchy</p></div>
+          <div class="why-text"><p>Search is the first thing on screen because the job is simple: get to this room. Recent places show their floor, so a repeat trip takes one tap, and the teal note introduces step-free routing before any route is chosen.</p></div>
+        </div>
+      </article>
+
+      <article class="moment reveal">
+        <div class="moment-head"><span class="kicker">02</span><h3>Search results</h3></div>
+        <figure class="shot shot-wide"><img data-zoom loading="lazy" src="../assets/img/waypoint/mock-search.png" width="2400" height="1350" alt="Search results for “Hartwell”, with rooms and buildings in separate groups and a floor tag on every room, beside four numbered notes."></figure>
+        <div class="phones shot-phones">
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-02-search.png" width="780" height="1688" alt="Search results for “Hartwell”, with rooms and buildings in separate groups."></figure>
+        </div>
+        <div class="why">
+          <div class="why-label"><p class="kicker">Why it is designed this way</p><p class="principle">Principle: Information scent</p></div>
+          <div class="why-text"><p>A room number should never compete with a building name, so the two are separated. Showing the floor up front answers the first indoor question before the person taps.</p></div>
+        </div>
+      </article>
+
+      <article class="moment reveal">
+        <div class="moment-head"><span class="kicker">03</span><h3>Building details and floor plan</h3></div>
+        <figure class="shot shot-wide"><img data-zoom loading="lazy" src="../assets/img/waypoint/mock-building.png" width="2400" height="1350" alt="Building details and floor plan screens for Hartwell Hall, showing access tags, entrances, the floor switch and the Floor 1 plan, beside four numbered notes."></figure>
+        <div class="phones shot-phones">
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-03-building.png" width="780" height="1688" alt="Building details for Hartwell Hall with floors, entrances and an elevator note."></figure>
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-04-floor-plan.png" width="780" height="1688" alt="Floor 1 plan of Hartwell Hall with the floor switch."></figure>
+        </div>
+        <div class="why">
+          <div class="why-label"><p class="kicker">Why it is designed this way</p><p class="principle">Principle: Recognition over recall</p></div>
+          <div class="why-text"><p>Floors, entrances and vertical circulation come before routing, so the person knows where the entrance and the elevator are. The floor switch changes the plan in place instead of adding a screen per floor.</p></div>
+        </div>
+      </article>
+
+      <article class="moment reveal">
+        <div class="moment-head"><span class="kicker">04</span><h3>Route preview and navigation</h3></div>
+        <figure class="shot shot-wide"><img data-zoom loading="lazy" src="../assets/img/waypoint/mock-navigation.png" width="2400" height="1350" alt="Route preview and two navigation screens, with the instruction banners Walk to Stairs A and Turn right, beside four numbered notes."></figure>
+        <div class="phones shot-phones">
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-06-route-preview.png" width="780" height="1688" alt="Route preview to Hartwell 214: 230 ft, about 1 minute, via Stairs A."></figure>
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-09-walk-to-stairs.png" width="780" height="1688" alt="Navigation instruction: Walk to Stairs A."></figure>
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-11-turn-right.png" width="780" height="1688" alt="Navigation instruction: Turn right, Hartwell 214 is 30 ft ahead."></figure>
+        </div>
+        <div class="why">
+          <div class="why-label"><p class="kicker">Why it is designed this way</p><p class="principle">Principle: Reduced cognitive load</p></div>
+          <div class="why-text"><p>The instruction sits in a high-contrast banner at the top, set at 22 px so it can be read at a glance while walking. Distance and time stay in the bottom panel. The “Demo · Next step” button simulates walking in the prototype; a real build would advance by indoor location.</p></div>
+        </div>
+      </article>
+
+      <article class="moment reveal">
+        <div class="moment-head"><span class="kicker">05</span><h3>Route selection and accessible route</h3></div>
+        <figure class="shot shot-wide"><img data-zoom loading="lazy" src="../assets/img/waypoint/mock-accessible.png" width="2400" height="1350" alt="Route selection with the step-free toggle off and on, and the Take Elevator B instruction, beside four numbered notes."></figure>
+        <div class="phones shot-phones">
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-07-route-selection.png" width="780" height="1688" alt="Route selection with the standard and step-free routes."></figure>
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-08-step-free.png" width="780" height="1688" alt="Step-free route selected, with a note that it is 80 ft longer."></figure>
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-13-elevator.png" width="780" height="1688" alt="Navigation instruction: Take Elevator B, go up to Floor 2."></figure>
+        </div>
+        <div class="why">
+          <div class="why-label"><p class="kicker">Why it is designed this way</p><p class="principle">Principle: Error prevention</p></div>
+          <div class="why-text"><p>Step-free is a first-class choice made where the route is chosen. Teal always travels with an icon and the words “Step-free”, the 80 ft trade-off is stated in plain words, and navigation names Elevator B and the floor before you board.</p></div>
+        </div>
+      </article>
+
+      <div class="full reveal">
+        <figure>
+          <div class="shot"><img data-zoom loading="lazy" src="../assets/img/waypoint/two-routes.png" width="2400" height="1200" alt="Hartwell 214 shown two ways on the Floor 1 and Floor 2 plans. Left, the standard route in blue: 230 feet, about 1 minute, via Stairs A. Right, the step-free route in teal: 310 feet, about 2 minutes, via Elevator B, 80 feet longer."></div>
+          <figcaption>One destination, two routes. The step-free route is 80 ft longer, and the screens say so before you start.</figcaption>
+        </figure>
+      </div>
+
+      <article class="moment reveal">
+        <div class="moment-head"><span class="kicker">06</span><h3>Arrival</h3></div>
+        <figure class="shot shot-wide"><img data-zoom loading="lazy" src="../assets/img/waypoint/mock-arrival.png" width="2400" height="1350" alt="Arrival screen with the banner You have arrived, the destination highlighted on the Floor 2 plan and a room sheet with an Arrived tag, beside four numbered notes."></figure>
+        <div class="phones shot-phones">
+          <figure><img loading="lazy" src="../assets/img/waypoint/screen-15-arrival.png" width="780" height="1688" alt="Arrival: You have arrived, Hartwell 214 is on your right."></figure>
+        </div>
+        <div class="why">
+          <div class="why-label"><p class="kicker">Why it is designed this way</p><p class="principle">Principle: Feedback</p></div>
+          <div class="why-text"><p>A route that simply ends leaves people checking door numbers. The last screen says which side the door is on and repeats the room and floor, so it is clear the trip is over.</p></div>
+        </div>
+      </article>
+
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">Accessibility decisions</p></div>
+        <div class="block-body">
+          <div class="tiles">
+            <div class="tile"><h3>Step-free selection</h3><p>A toggle on the route-selection sheet, “Step-free routes only”, sits where the route is chosen instead of in settings. Both routes list distance and time, and with the toggle on, a note says the step-free route is 80 ft longer.</p></div>
+            <div class="tile"><h3>Contrast</h3><p>Text pairs were checked against the 4.5:1 minimum for text. A script over all 332 text runs on the fifteen screens found none below it, and the lowest is 4.7:1. Teal and blue are only 1.2:1 apart in lightness, so teal never carries meaning without an icon and words.</p></div>
+            <div class="tile"><h3>Readability</h3><p>Body text is 16 px, supporting lines are 14 px and tags are 12 px. Instructions step up to 22 px so they can be read mid-stride, and 11 px appears only on map and tab labels. All 40 tappable elements are at least 44 × 44 px.</p></div>
+          </div>
+          <div class="note">
+            <p class="kicker">About these checks</p>
+            <p>These are my own design decisions and checks, run with scripts and contrast calculations. They are not an audit, a certification or a claim of WCAG conformance, and none has been tested with people. Screen-reader labels, large-text layouts, voice control and reduced motion are not designed in this concept.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 07 PROTOTYPE, NEXT STEPS & REFLECTION -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">07 / Prototype, next steps &amp; reflection</p></div>
+        <div class="block-body">
+          <h2>Try the Waypoint prototype</h2>
+          <p>Follow a room search, compare standard and step-free routes, and navigate to the destination.</p>
+          <div class="note">
+            <p class="kicker">Figma prototype · 15 screens</p>
+            <h3 style="margin-top: 12px">Search for a room, choose a route, and follow it to the door</h3>
+            <p>Start at the home screen and use the buttons as you would on a phone. It opens in Figma in a new tab.</p>
+            <p><a class="btn btn-solid" href="https://www.figma.com/proto/HJjyxllXbSOyPlOVEP5qT2/Waypoint?page-id=3%3A8&node-id=30-110&starting-point-node-id=30%3A110&scaling=scale-down&content-scaling=fixed" target="_blank" rel="noopener">Explore the prototype ↗</a></p>
+            <p class="small">Use “Demo · Next step” to advance each instruction, the way walking would in a real build.</p>
+          </div>
+        </div>
+      </section>
+      <div class="full reveal">
+        <figure>
+          <div class="shot"><img data-zoom loading="lazy" src="../assets/img/waypoint/all-screens.png" width="2400" height="3180" alt="Fifteen high-fidelity Waypoint screens in three rows: Home, Search results, Building details, Floor plan, Room selected, Route preview, Route selection, Accessible route, six navigation steps and Arrival."></div>
+          <figcaption>All fifteen screens in the prototype, from Home to Arrival.</figcaption>
+        </figure>
+      </div>
+
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">Not user-tested · How I would validate it</p></div>
+        <div class="block-body">
+          <h3 style="margin-top: 0">How I would test it</h3>
+          <p>This prototype hasn’t been tested with users. If I took it further, this is how I’d test it.</p>
+          <div class="tiles">
+            <div class="tile"><h4>Task sessions</h4><p>Students, campus visitors and people who use step-free routes each try three tasks while thinking aloud: find Hartwell 214, switch floors and choose a step-free route.</p></div>
+            <div class="tile"><h4>A short survey</h4><p>Afterward, participants rate how easy each task was and how confident they felt following the route, and note anything that confused them.</p></div>
+            <div class="tile"><h4>Short interviews</h4><p>A few participants would stay to talk about how they find rooms today, so the personas can be checked against real accounts.</p></div>
+          </div>
+          <div class="note">
+            <p class="kicker">What I would look for</p>
+            <p>Whether people finish each task, where they hesitate at the floor change, and whether they find the step-free option without being told.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">Reflection</p></div>
+        <div class="block-body">
+          <div class="tiles">
+            <div class="tile"><h3>What worked</h3><p>Treating step-free routing as a route choice shaped the whole flow. The toggle, the trade-off and the elevator name sit on the same screens everyone uses.</p></div>
+            <div class="tile"><h3>What I would change</h3><p>The route preview shows the stairs route first, so someone who needs step-free has to open route options to switch. I would try asking earlier, or remembering the choice.</p></div>
+            <div class="tile"><h3>What a real build needs</h3><p>Real floor-plan data, indoor positioning that holds up between floors, and designs for screen readers, large text and voice control. This concept covers none of them.</p></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <a class="next" href="myfinances.html">
+      <div class="wrap">
+        <div>
+          <p class="next-label">Next case study</p>
+          <p class="next-title">MyFinances <span aria-hidden="true">→</span></p>
+        </div>
+        <span class="kicker">Student finance app</span>
+      </div>
+    </a>
+  </main>
+
+  <footer class="case-footer">
+    <div class="wrap">
+      <span>© 2026 Tariq Ebo</span>
+      <a class="text-link" href="../index.html#work">← Back to selected work</a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFinances — Tariq Ebo</title>
+  <meta name="description" content="MyFinances helps college students understand, track, and manage their money. A UX case study by Tariq Ebo.">
+  <meta property="og:title" content="MyFinances — student finance app case study">
+  <meta property="og:image" content="../assets/img/myfinances/cover.png">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <div class="nav-shell">
+    <nav class="nav glass" aria-label="Main">
+      <a class="nav-brand" href="../index.html">Tariq Ebo</a>
+      <div class="nav-links">
+        <span class="lap-chip" aria-hidden="true"></span>
+        <a class="text-link" href="../index.html#work">← All work</a>
+        <a class="nav-cta" data-pit href="https://drive.google.com/file/d/1EJT7WIdHumrBzgWnmrdFnhgLevJQh3FU/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </nav>
+  </div>
+
+  <main id="content">
+    <!-- TITLE -->
+    <header class="case-hero">
+      <div class="glow-layer" aria-hidden="true">
+        <div class="orb" style="top: -180px; right: -140px; width: 600px; height: 600px; background: #6b3fd4; opacity: 0.3"></div>
+      </div>
+      <div class="wrap">
+        <p class="kicker">Featured case study / 2026</p>
+        <h1>MyFinances</h1>
+        <p class="case-lead">Helping college students understand, track, and manage their money.</p>
+
+        <dl class="case-meta glass">
+          <div><dt>Role</dt><dd>Main UX Designer &amp; Editor</dd></div>
+          <div><dt>Team</dt><dd>Team of 4 · INFO 360A</dd></div>
+          <div><dt>Tools</dt><dd>Figma</dd></div>
+          <div><dt>Skills</dt><dd>UX Research / User Testing / User Flows / Prototyping / UI Design</dd></div>
+        </dl>
+
+        <div class="case-intro">
+          <p>I was the main UX designer and editor on a four-person team. My work covered the user flows, prototype, and UI, and we ran the usability sessions and survey together. Some screens use the project’s earlier names, Husky Index and UW Financial Tracker.</p>
+          <a class="btn btn-solid" href="https://www.figma.com/proto/q0w340MBX9EwFXeXqtIjR5/My-finance-UI?node-id=50-780&p=f&viewport=415%2C-257%2C0.23&t=l8esuR3nchesDoX4-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=50%3A780&page-id=" target="_blank" rel="noopener">View the Figma prototype ↗</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <!-- 01 UNDERSTANDING THE PROBLEM -->
+      <section class="block reveal" style="padding-top: 40px">
+        <div class="block-label">
+          <p class="kicker">01 / Understanding the problem</p>
+          <figure style="margin-top: 24px; max-width: 300px">
+            <div class="shot"><img data-zoom src="../assets/img/myfinances/cover.png" width="1007" height="1461" alt="MyFinances cover: a hand holding a phone that shows the student finance dashboard."></div>
+          </figure>
+        </div>
+        <div class="block-body">
+          <h2>Understanding the <span class="accent">problem</span></h2>
+          <p>Limited income and school-related costs can make it hard to keep track of money. Our team focused on missed payments, overspending, under-saving, and the complexity of existing UW account management tools. We set out to design a simpler, student-centered financial tracker.</p>
+
+          <h3>Who we were designing for</h3>
+          <p>UW students balancing work and school expenses; students with limited financial literacy; and students managing irregular income or unexpected costs.</p>
+
+          <h3>Competitive landscape</h3>
+          <div class="tiles">
+            <div class="tile">
+              <h4>Wells Fargo</h4>
+              <p><span class="label">Strengths</span>Clear balances, recent transactions, and multiple account types.</p>
+              <p><span class="label">Gaps</span>Limited budgeting, goal tracking, and spending analysis.</p>
+            </div>
+            <div class="tile">
+              <h4>YNAB</h4>
+              <p><span class="label">Strengths</span>Detailed budgeting, financial goals, and spending awareness.</p>
+              <p><span class="label">Gaps</span>Subscription cost and a steeper learning curve for beginners.</p>
+            </div>
+            <div class="tile">
+              <h4>PocketGuard</h4>
+              <p><span class="label">Strengths</span>An understandable view of available money after expenses.</p>
+              <p><span class="label">Gaps</span>Restricted features and less emphasis on student accounts or long-term goals.</p>
+            </div>
+          </div>
+          <div class="note">
+            <p>Our opportunity: a free, simple tool that brings student finances into one view.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02 MAPPING THE EXPERIENCE -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">02 / Mapping the experience</p></div>
+        <div class="block-body">
+          <h2>Mapping the experience</h2>
+          <p>We mapped the main paths through account setup, account linking, budgeting, and wallet management before refining the interface.</p>
+        </div>
+      </section>
+      <div class="full reveal">
+        <figure>
+          <div class="shot"><img data-zoom loading="lazy" src="../assets/img/myfinances/flow.png" width="1190" height="839" alt="User flow linking login and account creation to bank linking, the dashboard, budget goals, account balances, and saving or sending money."></div>
+          <figcaption>User flow: login and account creation, bank linking, dashboard, budget goals, and wallet.</figcaption>
+        </figure>
+      </div>
+      <div class="full reveal">
+        <figure>
+          <div class="shot"><img data-zoom loading="lazy" src="../assets/img/myfinances/early-prototype.png" width="1289" height="775" alt="Initial prototype showing the login, spending dashboard, and wallet with Send Money and Add Money actions."></div>
+          <figcaption>Initial prototype / Login, Dashboard, and Wallet established the core structure before testing and iteration.</figcaption>
+        </figure>
+      </div>
+
+      <!-- 03 TESTING + ITERATION -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">03 / Testing + iteration</p></div>
+        <div class="block-body">
+          <h2>Testing + iteration</h2>
+          <p>Eight UW students navigated the Figma prototype in think-aloud sessions, completing tasks such as adding an expense, checking a wallet balance, and reviewing a budget, followed by a survey. Two more students completed the survey only.</p>
+          <p>The interface’s simplicity and consistency were positively received. The main opportunities were clearer onboarding, wallet actions, goals, and account management.</p>
+          <p class="small">I’m not reporting survey ratings or task-success rates here, only what students said.</p>
+
+          <h3>What students said</h3>
+          <div class="tiles">
+            <div class="tile"><h4>Onboarding</h4><p>Vincent asked for a first-time introduction. Trevor found the initial onboarding easy to navigate.</p></div>
+            <div class="tile"><h4>Wallet clarity</h4><p>Vincent found the wallet cluttered and the send/add-money actions unclear.</p></div>
+            <div class="tile"><h4>Financial goals</h4><p>Trevor recommended a dedicated modal for setting goals.</p></div>
+            <div class="tile"><h4>Account management</h4><p>Trevor wanted clearer ways to add and remove accounts.</p></div>
+            <div class="tile"><h4>What worked</h4><p>Navigation felt straightforward to Vincent. Trevor appreciated the interface’s consistency and simplicity.</p></div>
+          </div>
+
+          <h3>How the design responded</h3>
+          <div class="rows">
+            <div class="rows-item">
+              <div class="rows-title"><h4 style="margin-top: 0">Onboarding</h4></div>
+              <div class="rows-body">
+                <p><span class="label">Feedback</span>First-time users needed more context.</p>
+                <p><span class="label">Design response</span>The final welcome screen introduces account connection and the app’s features.</p>
+              </div>
+            </div>
+            <div class="rows-item">
+              <div class="rows-title"><h4 style="margin-top: 0">Wallet</h4></div>
+              <div class="rows-body">
+                <p><span class="label">Feedback</span>Actions felt cluttered or unclear.</p>
+                <p><span class="label">Design response</span>The final wallet groups accounts and labels the Husky balance action. This revision has not been re-tested.</p>
+              </div>
+            </div>
+            <div class="rows-item">
+              <div class="rows-title"><h4 style="margin-top: 0">Goals</h4></div>
+              <div class="rows-body">
+                <p><span class="label">Feedback</span>A clearer goal-setting interaction was requested.</p>
+                <p><span class="label">Next step</span>A focused goal-setting modal. It isn’t part of the final screens shown here.</p>
+              </div>
+            </div>
+            <div class="rows-item">
+              <div class="rows-title"><h4 style="margin-top: 0">Accounts</h4></div>
+              <div class="rows-body">
+                <p><span class="label">Feedback</span>Adding and removing accounts needed clearer pathways.</p>
+                <p><span class="label">Next step</span>Clarify and test the add and remove account paths. The final screens shown here don’t cover the full flow.</p>
+              </div>
+            </div>
+          </div>
+
+          <h3>Wallet, before and after</h3>
+          <p>The wallet drew the clearest feedback: it felt cluttered and the Send and Add Money actions were unclear. The revision groups accounts and labels the action. It has not been re-tested.</p>
+          <div class="pair">
+            <figure>
+              <div class="shot"><img data-zoom loading="lazy" src="../assets/img/myfinances/early-prototype.png" width="1289" height="775" alt="Initial prototype showing the login, spending dashboard, and wallet with Send Money and Add Money actions."></div>
+              <figcaption>Before / Initial prototype. The wallet is the right-hand screen, with Send Money and Add Money actions.</figcaption>
+            </figure>
+            <figure style="max-width: 280px">
+              <div class="shot" style="border-radius: 26px"><img data-zoom loading="lazy" src="../assets/img/myfinances/wallet.png" width="402" height="874" alt="Wallet screen with connected accounts and a labeled Husky balance action."></div>
+              <figcaption>After / Final wallet. Accounts are grouped and the Husky balance action is labeled.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04 FINAL DESIGN -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">04 / Final design</p></div>
+        <div class="block-body">
+          <h2>Final design</h2>
+          <p>A Figma concept for student balances, tuition, aid, budgeting, and connected accounts—not a live banking integration.</p>
+
+          <h3>How the screens answer the problem</h3>
+          <div class="tiles">
+            <div class="tile">
+              <h4>Overspending</h4>
+              <p><span class="label">Problem</span>Overspending.</p>
+              <p><span class="label">Response</span>The budget screen shows a total budget, spending progress, and category limits.</p>
+            </div>
+            <div class="tile">
+              <h4>Complex UW tools</h4>
+              <p><span class="label">Problem</span>Existing UW account tools are complex.</p>
+              <p><span class="label">Response</span>One dashboard shows tuition owed, financial aid, tuition progress, loans, and spending.</p>
+            </div>
+            <div class="tile">
+              <h4>Scattered accounts</h4>
+              <p><span class="label">Problem</span>Balances and accounts live in separate places.</p>
+              <p><span class="label">Response</span>The wallet groups connected accounts in one place.</p>
+            </div>
+          </div>
+          <p class="small">Missed payments and under-saving are still open. Goal setting is a next step and isn’t part of the final screens shown here.</p>
+
+          <div class="phones" style="margin-top: 40px">
+            <figure>
+              <img data-zoom loading="lazy" src="../assets/img/myfinances/dashboard.png" width="402" height="881" alt="Final MyFinances dashboard showing tuition owed, financial aid, tuition progress, student loans, and a spending trend.">
+              <figcaption>Dashboard / Cards, color, and spacing separate balances, aid, tuition progress, loans, and spending.</figcaption>
+            </figure>
+            <figure>
+              <img data-zoom loading="lazy" src="../assets/img/myfinances/budget.png" width="402" height="874" alt="Budget screen with a total budget, spending progress, and category limits.">
+              <figcaption>Budget / Category limits</figcaption>
+            </figure>
+            <figure>
+              <img data-zoom loading="lazy" src="../assets/img/myfinances/wallet.png" width="402" height="874" alt="Wallet screen with connected accounts and a labeled Husky balance action.">
+              <figcaption>Wallet / Connected accounts</figcaption>
+            </figure>
+          </div>
+          <div class="phones" style="margin-top: 32px">
+            <figure>
+              <img data-zoom loading="lazy" src="../assets/img/myfinances/settings.png" width="402" height="874" alt="MyFinances settings screen with account and preference groups.">
+            </figure>
+            <figure>
+              <img data-zoom loading="lazy" src="../assets/img/myfinances/welcome.png" width="402" height="874" alt="MyFinances welcome screen that introduces connecting a bank account.">
+            </figure>
+          </div>
+          <p class="small">Supporting screens / Settings groups account preferences; Welcome adds context before connection. Security wording on these screens is placeholder copy.</p>
+        </div>
+      </section>
+
+      <!-- 05 REFLECTION -->
+      <section class="block reveal">
+        <div class="block-label"><p class="kicker">05 / Reflection</p></div>
+        <div class="block-body">
+          <h2>Reflection</h2>
+          <div class="tiles">
+            <div class="tile"><h3>Outcome</h3><p>The team delivered a tested Figma prototype covering the dashboard, budget, wallet, settings, and welcome screens. Testing led to a revised welcome screen and wallet. Goal setting and account management are still open, and the wallet revision hasn’t been re-tested.</p></div>
+            <div class="tile"><h3>What I’m taking forward</h3><p>Testing showed me that a clean-looking financial screen can still leave actions unclear. Feedback shaped the welcome experience and wallet presentation, while goal setting and account-management pathways still need work. I’m taking a closer eye for wording and information hierarchy into my next project, and would re-test these flows before calling them resolved.</p></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <a class="next" href="soundshelf.html">
+      <div class="wrap">
+        <div>
+          <p class="next-label">Next project</p>
+          <p class="next-title">SoundShelf <span aria-hidden="true">→</span></p>
+        </div>
+        <span class="kicker">Music discovery</span>
+      </div>
+    </a>
+  </main>
+
+  <footer class="case-footer">
+    <div class="wrap">
+      <span>© 2026 Tariq Ebo</span>
+      <a class="text-link" href="../index.html#work">← Back to selected work</a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
